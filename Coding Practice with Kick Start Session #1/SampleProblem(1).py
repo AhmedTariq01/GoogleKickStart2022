@@ -50,3 +50,20 @@ number_of_cases = int(input(" Enter number of cases: "))
 for i in range(number_of_cases):
     remaining_candy = solve()
     print(" Case #", i + 1, ": ", remaining_candy)
+
+
+# Another solution
+
+# def processcase(case_number):
+#     (number_of_candybags, number_of_children) = tuple(map(int, input().split()))
+#     candy_counts = list(map(int, input().split()))
+#     total_candy = 0
+#     for i in range(number_of_candybags):
+#         total_candy += candy_counts[i]
+#         amount_remaining = total_candy % number_of_children
+#         print(" Case #", case_number, ": ", amount_remaining)
+#
+# number_of_cases = int(input(" Enter number of cases: "))
+# for i in range(number_of_cases):
+#     processcase(i + 1)
+
