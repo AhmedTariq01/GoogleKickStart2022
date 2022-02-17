@@ -60,8 +60,9 @@ for i in range(number_of_cases):
 #     total_candy = 0
 #     for i in range(number_of_candybags):
 #         total_candy += candy_counts[i]
-#         amount_remaining = total_candy % number_of_children
-#         print(" Case #", case_number, ": ", amount_remaining)
+
+#     amount_remaining = total_candy % number_of_children
+#     print(f"Case#", case_number, ": ", amount_remaining)
 #
 # number_of_cases = int(input(" Enter number of cases: "))
 # for i in range(number_of_cases):
