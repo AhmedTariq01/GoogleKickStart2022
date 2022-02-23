@@ -1,3 +1,6 @@
 ﻿# GoogleKickStart2022
 [![Maintainability](https://api.codeclimate.com/v1/badges/aca1cfeb8b1b0c45a9c4/maintainability)](https://codeclimate.com/github/ahmedtariq01/GoogleKickStart2022/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/aca1cfeb8b1b0c45a9c4/test_coverage)](https://codeclimate.com/github/ahmedtariq01/GoogleKickStart2022/test_coverage)
+### Static Code Analysis
+
+[![Issue Count](https://api.codeclimate.com/v1/badges/aca1cfeb8b1b0c45a9c4/maintainability)/badges/issue_count.svg)](https://api.codeclimate.com/v1/badges/aca1cfeb8b1b0c45a9c4/maintainability) 
+![python3.8](https://img.shields.io/badge/python-3.8-blue.svg)
