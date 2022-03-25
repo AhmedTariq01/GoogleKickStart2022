@@ -6,7 +6,7 @@
 [![Issue Count](https://codeclimate.com/github/ahmedtariq01/GoogleKickStart2022/badges/issue_count.svg)](https://codeclimate.com/github/ahmedtariq01/GoogleKickStart2022) 
 ![python3.8](https://img.shields.io/badge/python-3.8-blue.svg)
 
-### Google KickStart Practic Session #1
+### Google KickStart Practice Session #1
 ### Problems:
 1- Sample Problem \
 2- Centauri Prime \
