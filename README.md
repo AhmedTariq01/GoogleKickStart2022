@@ -7,9 +7,9 @@
 ![python3.8](https://img.shields.io/badge/python-3.8-blue.svg)
 
 ### Google KickStart Practic Round A
-#### Problems:
-1- Sample Problem
-2- Centauri Prime
-3- H-index
-4- Hex
+### Problems:
+1- Sample Problem \
+2- Centauri Prime \
+3- H-index \
+4- Hex \
 5- Milk tea
