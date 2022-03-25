@@ -6,7 +6,7 @@
 
 # Google KickStart 2022
 ### What is KickStart?
-<p> Kick Start offers coders around the world the chance to develop 
+<p align="justify"> Kick Start offers coders around the world the chance to develop 
 and hone their programming skills through online-hosted competition 
 rounds. The three-hour rounds feature a variety of algorithmic challenges,
 all developed by Google engineers so that you get a taste of the technical 
