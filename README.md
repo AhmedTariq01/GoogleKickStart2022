@@ -17,6 +17,7 @@ everywhere. Each Kick Start Round is open to all participants, no pre-qualificat
 is needed, so you can try your hand at one or give them all a shot. In addition
 to our online rounds, Google is hosting several Coding Practice with Kick Start
 sessions throughout the competition season. </p>
+<p>Find out more here: <a href="https://codingcompetitions.withgoogle.com/kickstart"> Google KickStart</a> </p>
 
 ### Google KickStart Practice Session #1
 ### Problems:
