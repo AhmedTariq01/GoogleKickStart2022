@@ -1,6 +1,5 @@
 INF = float("inf")
 
-
 class Dinic:
     def __init__(self, n):  # vertexes from 0 to n-1 inclusive
         self.lvl = [0] * n
@@ -82,8 +81,9 @@ def getMaxFlow(grid, n, player):
     # create graph
     for i in range(n):
         for j in range(n):
-            dinic.add_edge(nodeEntry(i, j), nodeExit(i, j),
-                           1)  # create 2 nodes within each hexagon and connect them with a capacity of 1 (so each hexagon may only allow 1 unit to flow through)
+            dinic.add_edge(nodeEntry(i, j), nodeExit(i, j),1)
+            # create 2 nodes within each hexagon and connect them with a capacity of 1
+            # (so each hexagon may only allow 1 unit to flow through)
             if grid[i][j] == player:
                 for ii, jj in ((i - 1, j), (i - 1, j + 1), (i, j - 1),
                                (i, j + 1), (i + 1, j - 1), (i + 1, j)):
@@ -196,13 +196,6 @@ def answerInteractive(ansArr):
 
 
 inf = float('inf')
-# MOD=10**9+7
-# MOD=998244353
-
-from math import gcd, floor, ceil
-import math
-
-# from math import floor,ceil # for Python2
 
 for _abc in range(1):
     main()
