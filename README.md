@@ -1,4 +1,4 @@
-﻿# GoogleKickStart2022
+﻿# Google KickStart 2022
 
 ### Static Code Analysis
 
