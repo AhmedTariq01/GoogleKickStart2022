@@ -53,3 +53,27 @@
 # In the second test case, there is no letter K in P so the answer is IMPOSSIBLE.
 
 # Solution
+import many as many
+
+
+def speed_typing():
+    i = input()
+    p = input()
+    n = len(i)
+    m = len(p)
+    l = 0
+    r = 0
+    for j in range(len(p)):
+        if l < len(i) and i[l] == p[j]:
+            l += 1
+        else:
+            r += 1
+    if l == len(i):
+        return r
+    else:
+        return "IMPOSSIBLE"
+
+
+t = int(input())
+for i in range(t):
+    print("Case #{}: {}".format(i + 1, speed_typing()))
