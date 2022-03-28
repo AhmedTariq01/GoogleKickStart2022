@@ -53,8 +53,6 @@
 # In the second test case, there is no letter K in P so the answer is IMPOSSIBLE.
 
 # Solution
-import many as many
-
 
 def speed_typing():
     i = input()
