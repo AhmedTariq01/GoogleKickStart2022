@@ -33,3 +33,27 @@
 # In Sample Case #1, there are only two numbers that can be constructed satisfying the divisibility constraint: 45 and 54. John chooses the smaller number.
 # In Sample Case #2, 333 is the only number possible.
 # In Sample Case #3, there are four possible options - 212121, 122121, 121221 and 121212 - out of which the smallest number is 121212.
+
+# Solution
+for j in range(int(input())):
+    n = int(input())
+
+    def solve(n):
+
+        if n == 0:
+            return 0
+        if n % 9 == 0:
+            return 9
+        else:
+            return n % 9
+
+    x = 9 - solve(n)
+    s = str(n)
+    ans = s + str(x)
+    for i in range(0, len(s)):
+        temp = s[0:i] + str(x) + s[i:len(s)]
+        if temp[0] == '0':
+            continue
+        ans = min(temp, ans)
+
+    print("Case #{}: {}".format(j + 1, ans))
